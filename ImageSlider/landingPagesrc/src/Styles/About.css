@@ -1,0 +1,68 @@
+.backgroundAbout{
+    background-image: url('/home/bcs225/landing-page/src/assets/about-background.png');
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+    background-position: left;
+    margin: 7% 0;
+}
+.about {
+    display: flex;
+    margin: 4%;
+}
+.saladBowl {
+    max-width: 40%;
+    max-height: 80%;
+    margin: 10% auto;
+}
+.about div {
+    margin: auto 10% auto 4%;
+}
+.aboutSpan {
+    color: #ff9900;
+    font-size: 20px;
+    font-weight: 600;
+}
+.about h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.about p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 14%;
+    margin-bottom: 40px;
+}
+.buttons {
+    align-items: center;
+    display: flex;
+    margin: 0 !important;
+}
+.learnMore {
+    background-color: #ff9900;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-right: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.watchVideo {
+    margin: 0 0 0 30px !important;
+    display: flex;
+    align-items: center;
+}
+.watchVideo span {
+    width: 100px;
+}
+.playRound {
+    width: 48px;
+    height: 40px;
+    background-color: #3d3d29;
+    color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

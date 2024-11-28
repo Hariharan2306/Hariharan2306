@@ -1,0 +1,3 @@
+banana#6#{chennai=6}#7.0
+apple#12#{ooty=7, banglore=5}#15.0
+mango#13#{salem=8, chennai=5}#15.0

@@ -1,0 +1,42 @@
+.how {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.how span {
+    color: #ff9900;
+    font-weight: 600;
+}
+.how h1 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+.how p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 0px;
+}
+.charts {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 17% 0 17%;
+    padding-bottom: 5%;
+}
+.charts p {
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+.charts img {
+    height: 40%;
+    margin: 5%;
+}
+.chart {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0 10px;
+}

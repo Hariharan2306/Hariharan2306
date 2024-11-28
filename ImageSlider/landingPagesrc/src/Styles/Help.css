@@ -1,0 +1,37 @@
+.help {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.help h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.inputBox {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    width: 45%;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputBox input {
+    padding: 10px;
+    border: 0px;
+    width: 65%;
+    height: 80%;
+}
+.inputBox input:focus {
+    outline: 0px;
+}
+.inputBox div {
+    cursor: pointer;
+    background-color: #ff9900;
+    padding: 15px 47px;
+    border-radius: 30px;
+    color: #ffffff;
+}

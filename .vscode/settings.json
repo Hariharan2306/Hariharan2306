@@ -1,0 +1,16 @@
+{
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/Users/bcs225/Documents/Practice/jdk-21.0.2.jdk/Contents/Home",
+      "default": true
+    }
+  ],
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.project.sourcePaths": ["."],
+  "java.project.referencedLibraries": [],
+  "java.jdt.ls.java.home": "/Users/bcs225/Documents/Practice/jdk-21.0.2.jdk/Contents/Home",
+  "java.format.settings.url": "eclipse-formatter.xml"
+}

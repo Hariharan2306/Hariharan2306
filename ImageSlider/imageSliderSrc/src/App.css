@@ -1,0 +1,32 @@
+.imageArea {
+  width: 1000px;
+  height: 450px;
+  margin: auto;
+}
+img {
+  height: 100%;
+  width: 100%;
+  background-position-x: center;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+}
+.menuArea {
+  height: 20px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dots {
+  width: 10px;
+  height: 10px;
+  margin: 2px 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.activeDot {
+  background-color: #595959;
+}
+.inactiveDot {
+  background-color: #bfbfbf;  
+}

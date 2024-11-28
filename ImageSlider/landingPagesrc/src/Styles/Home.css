@@ -1,0 +1,37 @@
+
+.background{
+    background-image: url("/home/bcs225/landing-page/src/assets/home-banner-background.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50% 98%;
+}
+.frstPageContent{
+    display: flex;
+    margin: 40px 0 auto 12%;  
+}
+.favFood{
+    margin: auto 0;
+    width: 45%;
+}
+.favFood h1{
+    font-size: 55px;
+}
+.favFood p{
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+.favFood span{
+    background-color: #ff9900;
+    border-radius: 30px;
+    padding: 15px 30px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    width: fit-content;
+}
+.eggBowl{
+    max-width: 570px;
+    margin-bottom: 40px;
+}
