@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FirstWordCaps",
+      "request": "launch",
+      "mainClass": "IntPractice.FirstWordCaps",
+      "projectName": "Practice_e39a14a8"
+    },
+    {
+      "type": "java",
+      "name": "ArithmeticOperation",
+      "request": "launch",
+      "mainClass": "Problems.ArithmeticOperation",
+      "projectName": "Practice_e39a14a8"
+    },
+    {
+      "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "LeetCode.Practice",
+      "projectName": "Practice_e39a14a8"
+    },
+    {
+      "type": "java",
       "name": "Pattern1",
       "request": "launch",
       "mainClass": "JAVA.IdeaProjects.ZohoPrep.src.Patterns.Pattern1",

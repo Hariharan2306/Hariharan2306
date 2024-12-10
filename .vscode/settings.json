@@ -3,7 +3,7 @@
   "java.configuration.runtimes": [
     {
       "name": "JavaSE-17",
-      "path": "/Users/bcs225/Documents/Practice/jdk-21.0.2.jdk/Contents/Home",
+      "path": "/Users/bcs225/Documents/jdk-21.0.2.jdk/Contents/Home",
       "default": true
     }
   ],
@@ -11,6 +11,6 @@
   "java.compile.nullAnalysis.mode": "automatic",
   "java.project.sourcePaths": ["."],
   "java.project.referencedLibraries": [],
-  "java.jdt.ls.java.home": "/Users/bcs225/Documents/Practice/jdk-21.0.2.jdk/Contents/Home",
+  "java.jdt.ls.java.home": "/Users/bcs225/Documents/jdk-21.0.2.jdk/Contents/Home",
   "java.format.settings.url": "eclipse-formatter.xml"
 }

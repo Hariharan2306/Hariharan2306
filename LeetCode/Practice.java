@@ -1,19 +1,23 @@
 package LeetCode;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 
 public class Practice {
-    public static void main(String[] args) {
-       int i,j;
-       int n = 3;
-       
-       for(i=0;i<n;i++){
-         for(j=0;j<n;j++){
-            System.out.print((i+1)+ j*n);
+    public static void main(String[] args) throws Exception {
+      String File = "IntPractice/Bank/bank_db.txt";
+      BufferedReader bfr = new BufferedReader(new FileReader(File));
+      String line = bfr.readLine();
+      int words = 0;
+      while(line != null){
+         words++;
+         for(char c : line.toCharArray()){
+            if(c == ' ')
+               words++;
          }
-         System.out.println();
-       }
+         line = bfr.readLine();
+      }
+      bfr.close();
+      System.out.println(words);
     }    
 }
-//1 4 7
-//2 5 8
-//3 6 9

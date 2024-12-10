@@ -1,3 +1,5 @@
+package Problems;
+
 public class ArithmeticOperation {
     public static void main(String[] args) {
         String a = "12345*+-+";
@@ -15,8 +17,7 @@ public class ArithmeticOperation {
         int x = a.charAt(0) - 48;
         char op = a.charAt(opIdx);
         j = 0;
-
-        while (opIdx < a.length() - 1) {
+        while (opIdx < a.length() ) {
             switch (op) {
                 case '+':
                     x += a.charAt(j) - 48;
@@ -29,6 +30,7 @@ public class ArithmeticOperation {
                     break;
             }
             opIdx++;
+            j++;
         }
         System.out.println(x);
     }
