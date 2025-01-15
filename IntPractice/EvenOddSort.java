@@ -8,49 +8,20 @@ public class EvenOddSort {
         // int[] a = {11,13,15,17};
         // op {5,2,3,1,4}
         int[] a = getInput();
-        int i,j;
-
-        i = 0;
-        while(i<a.length)
-            System.out.print(a[i++] +" ");
-        System.out.println();
-
+        int i,j,temp;
 
         for(i=0;i<a.length;i++){
-            // skip if not odd
-            if(a[i] % 2 == 0)
-                continue;
-            for(j=0;j<a.length;j++){
-                // skip if not odd
-                if(a[j] % 2 == 0)
-                    continue;
-                if(a[i] > a[j]){
-                    int temp = a[i];
-                    a[i] = a[j];
-                    a[j] = temp;
+            for(j = i+1; j<a.length; j++){
+                if( (a[i] %2 != 0 && a[j] %2 != 0 && a[i] < a[j]) || (a[i] %2 == 0 && a[j] %2 == 0 && a[i] > a[j])){
+                    temp = a[j];
+                    a[j] = a[i];
+                    a[i] = temp;
                 }
             }
         }
-
-        for(i=0;i<a.length;i++){
-            // skip if not even
-            if(a[i] % 2 != 0)
-                continue;
-            for(j=0;j<a.length;j++){
-                // skip if not even
-                if(a[j] % 2 != 0)
-                    continue;
-                if(a[i] < a[j]){
-                    int temp = a[i];
-                    a[i] = a[j];
-                    a[j] = temp;
-                }
-            }
-        }
-
         i = 0;
         while(i<a.length)
-            System.out.print(a[i++] +" ");
+            System.out.print(a[i++]+" ");
     }
     static int[] getInput(){
         Scanner sc = new Scanner(System.in);

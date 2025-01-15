@@ -3,17 +3,17 @@ import java.util.Scanner;
 
 public class MatrixTransPose {
     public static void main(String[] args) {
-        // int a[][] = {
-        //     { 1, 2, 3 },
-        //     { 4, 5, 6 },
-        //     { 7, 8, 9 }
-        // };
+        int a[][] = {
+            { 1, 2, 3 },
+            { 4, 5, 6 },
+            { 7, 8, 9 }
+        };
         // int a[][] = {
         //     { 1, 2},
         //     { 3, 4 }
         // };
 
-        int a[][] = getInput();
+        // int a[][] = getInput();
         int i, j;
         for (i = 0; i < a.length; i++) {
             for (j = a[i].length-1; j >= 0; j--) {

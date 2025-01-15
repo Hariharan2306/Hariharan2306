@@ -6,6 +6,61 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvenOddSort",
+      "request": "launch",
+      "mainClass": "IntPractice.EvenOddSort",
+      "projectName": "Hariharan2306_18d5ff50"
+    },
+    {
+      "type": "java",
+      "name": "Prog8",
+      "request": "launch",
+      "mainClass": "LeetCode.BasicProgs.Prog8",
+      "projectName": "Hariharan2306_18d5ff50"
+    },
+    {
+      "type": "java",
+      "name": "Prog7",
+      "request": "launch",
+      "mainClass": "LeetCode.BasicProgs.Prog7",
+      "projectName": "Hariharan2306_18d5ff50"
+    },
+    {
+      "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "Practice",
+      "projectName": "Hariharan2306_18d5ff50"
+    },
+    {
+      "type": "java",
+      "name": "MatrixTranspose",
+      "request": "launch",
+      "mainClass": "LeetCode.Matrixx.MatrixTranspose",
+      "projectName": "Hariharan2306_18d5ff50"
+    },
+    {
+      "type": "java",
+      "name": "MatrixTransPose",
+      "request": "launch",
+      "mainClass": "IntPractice.MatrixTransPose",
+      "projectName": "Hariharan2306_18d5ff50"
+    },
+    {
+      "type": "java",
+      "name": "MiniRegex",
+      "request": "launch",
+      "mainClass": "LeetCode.MiniRegex",
+      "projectName": "Hariharan2306_18d5ff50"
+    },
+    {
+      "type": "java",
+      "name": "LeastLarge",
+      "request": "launch",
+      "mainClass": "LeetCode.LeastLarge"
+    },
+    {
+      "type": "java",
       "name": "FirstWordCaps",
       "request": "launch",
       "mainClass": "IntPractice.FirstWordCaps",
