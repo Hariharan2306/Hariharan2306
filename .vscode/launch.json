@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LeastLargest",
+      "request": "launch",
+      "mainClass": "IntPractice.LeastLargest",
+      "projectName": "Hariharan2306_18d5ff50"
+    },
+    {
+      "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "IntPractice.Practice",
+      "projectName": "Hariharan2306_18d5ff50"
+    },
+    {
+      "type": "java",
       "name": "EvenOddSort",
       "request": "launch",
       "mainClass": "IntPractice.EvenOddSort",

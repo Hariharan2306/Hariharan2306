@@ -2,7 +2,7 @@ package IntPractice;
 public class Practice {
     public static void main(String[] args) {
         int i,j;
-        
+        // pattern
         String s = "1234567";
         for(i=0;i<s.length();i++){
             for(j=0;j<s.length();j++){
