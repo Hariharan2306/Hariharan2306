@@ -1,18 +1,20 @@
-package LeetCode.Matrixx;
+package IntPractice;
 
-public class MatrixTranspose {
+public class MatrixTranspose90Clockwise {
     public static void main(String[] args) {
         int a[][] = {
             { 1, 2, 3 },
             { 4, 5, 6 },
             { 7, 8, 9 }
         };
-        int i, j,k,temp;
-        for(i=0;i<a.length;i++){
+        int i, k ,j,temp;
+        for(i=1;i<a.length;i++){
             for(j=0;j<i;j++){
-                temp = a[i][j];
-                a[i][j] = a[j][i];
-                a[j][i] = temp;
+                if(i != j){
+                    temp = a[i][j];
+                    a[i][j] = a[j][i];
+                    a[j][i] = temp;
+                }
             }
         }
 

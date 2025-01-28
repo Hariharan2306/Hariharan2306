@@ -1,5 +1,5 @@
 package IntPractice;
-public class Practice {
+public class Pattern {
     public static void main(String[] args) {
         int i,j;
         // pattern

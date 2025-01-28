@@ -11,7 +11,7 @@ class LeastLargest{
             idx = -1;
             diff = 0;
             for(j = 0; j < a.length; j++){
-                if(i!=j && a[j] - a[i] > 0 && ((diff > 0 && a[j] - a[i] < diff) || (diff == 0 && a[j] - a[i] > diff)) ){
+                if(a[j] - a[i] > 0 && ((diff > 0 && a[j] - a[i] < diff) || (diff == 0 && a[j] - a[i] > diff)) ){
                     diff = a[j] - a[i];
                     idx = j;
                 }
