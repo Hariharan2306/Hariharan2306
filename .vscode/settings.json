@@ -1,4 +1,7 @@
 {
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java" // Java uses RedHat formatter
+  },
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable",
   "java.configuration.runtimes": [
     {
@@ -12,5 +15,7 @@
   "java.project.sourcePaths": ["."],
   "java.project.referencedLibraries": [],
   "java.jdt.ls.java.home": "/Users/bcs225/Documents/jdk-23.0.1.jdk/Contents/Home",
-  "java.format.settings.url": "eclipse-formatter.xml"
+  "java.format.settings.url": "eclipse-formatter.xml",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true // Formats code while typing
 }
