@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MissAndRepeat",
+      "request": "launch",
+      "mainClass": "LeetCode.MissAndRepeat",
+      "projectName": "Hariharan2306_9365912e"
+    },
+    {
+      "type": "java",
       "name": "LeastLargest",
       "request": "launch",
       "mainClass": "IntPractice.LeastLargest",
