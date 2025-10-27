@@ -80,6 +80,36 @@ public class LinkedListOps {
         last.next = temp;
         temp.next = null;
     }
+
+    public boolean detectIsCycle() {
+        if (head == null)
+            return false;
+        Node slow = head, fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast)
+                return true;
+        }
+        return false;
+    }
+
+    public void removeNthNode(int n) {
+        if (head == null)
+            return;
+        Node last = head;
+        int depth = 1;
+        while (last.next != null) {
+            last = last.next;
+            depth++;
+        }
+        int deleteIndex = depth - n + 1;
+        last = head;
+        for (int i = 1; i < deleteIndex && last.next != null; i++) {
+            last = last.next;
+        }
+        last.next = last.next.next;
+    }
 }
 
 // 1 2 3
