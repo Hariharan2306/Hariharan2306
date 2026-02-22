@@ -1,7 +1,9 @@
+package Problems;
+
 public class Version {
     public static void main(String[] args) {
-        String v1 = "1.0";
-        String v2 = "1.0.2";
+        String v1 = "1.0.0";
+        String v2 = "1.0";
         String a = "", b = "";
         int i = 0, j = 0;
 

@@ -68,6 +68,8 @@ public class LinkedListOps {
     }
 
     public void antiClockWise() {
+        // 1 2 3 4 5
+        // 2 3 4 5 1
         if (head == null)
             return;
         Node temp = head;
@@ -109,6 +111,68 @@ public class LinkedListOps {
             last = last.next;
         }
         last.next = last.next.next;
+    }
+
+    public void clockWise() {
+        // 1 2 3 4 5
+        // 5 1 2 3 4
+        if (head == null)
+            return;
+        Node newlast = head;
+        while (newlast.next.next != null)
+            newlast = newlast.next;
+
+        newlast.next.next = head;
+        head = newlast.next;
+        newlast.next = null;
+    }
+
+    public void rotate(int k) {
+        if (k > 0) {
+            for (int i = 0; i < k; i++)
+                clockWise();
+        } else {
+            for (int i = 0; i < -k; i++)
+                antiClockWise();
+        }
+    }
+
+    public void optimisedRotate(int k) {
+        if (head == null || head.next == null || k == 0)
+            return;
+
+        int n = 1;
+        Node tail = head;
+        while (tail.next != null) {
+            tail = tail.next;
+            n++;
+        }
+        k %= n;
+        if (k < 0)
+            k = n + k;
+        if (k == 0)
+            return;
+        tail.next = head;
+        Node newtail = head;
+        for (int i = 0; i < n - 1 - k; i++)
+            newtail = newtail.next;
+        head = newtail.next;
+        newtail.next = null;
+    }
+
+    public Node mergeTwoLists(Node list1, Node list2) {
+        if (list1 != null && list2 != null) {
+            if (list1.value < list2.value) {
+                list1.next = mergeTwoLists(list1.next, list2);
+                return list1;
+            } else {
+                list2.next = mergeTwoLists(list1, list2.next);
+                return list2;
+            }
+        }
+        if (list1 == null)
+            return list2;
+        return list1;
     }
 }
 

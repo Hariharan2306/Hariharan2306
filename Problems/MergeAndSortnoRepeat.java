@@ -1,3 +1,5 @@
+package Problems;
+
 public class MergeAndSortnoRepeat {
     // Eg 1: Input:
     // Array 1: 2,4,5,6,7,9,10,13
